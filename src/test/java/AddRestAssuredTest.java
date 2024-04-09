@@ -8,7 +8,7 @@ public class AddRestAssuredTest {
     @Test
     public void addRestAssuredTest() {
         Response response = RestAssured
-                .get("http://playground.learnqa.ru/api/hello")
+                .get("https://playground.learnqa.ru/api/get_text")
                 .andReturn();
         response.prettyPrint();
     }
